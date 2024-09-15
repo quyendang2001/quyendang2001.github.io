@@ -1,0 +1,17 @@
+- title: Summer School
+  type: time_table
+  contents:
+    - title: Internation School on Optimization
+      institution:
+      year: 2021
+      description: 
+        - Study and conduct research projects under US mathematicans
+
+- title: Conference
+  type: time_table
+  contents:
+    - title: XIII International Symposium on Generalized Convexity and Monotonicity
+      institution: 
+      year: 2022
+      description: 
+        - Lectures and discussions with experts in Convex Optimization
