@@ -1,115 +1,59 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{thesis,
+  abbr={These.fr},
+  title={Thesis (in progress): Acceleration of Newton-like methods for nonlinear algebraic systems by preflattening techniques},
+  author={Ngoc Do Quyen DANG},
+  abstract={The numerical discretization of physical models in many fields leads to very large nonlinear algebraic systems. 
+The resolution of these systems, which is usually done by successive linearizations like Newton's method, must be fast in order to 
+increase the efficiency of the software. However, one of the obstacles to this speed is the more or less strong nonlinearity of the 
+system considered. Indeed, it is known that when the system is linear, Newton's method converges in a single iteration (at least in exact
+arithmetic). The best theoretical results available to date for Newton show that its convergence speed depends on two constants specific 
+to the problem, one of which is similar to a measure of local nonlinearity. For about twenty years, preconditioning techniques have been 
+introduced in order to accelerate the resolution of nonlinear systems. They consist in solving an equivalent system judiciously constructed 
+by analogy with the linear case. However, unlike the linear case, it cannot be guaranteed that the new system will be more suitable for 
+Newtonian resolution than the initial one, even if this is generally attested by numerical experiments. The reason is that in the linear case, 
+it is the conditioning of the matrix that governs the convergence speed of the linear solver and we can be sure that the new conditioning 
+will be more favorable. In the nonlinear case, this is no longer the case. We do not know exactly what scalar quantity has decreased between 
+the old system and the new one. Thus, even if nonlinear preconditioning works, its basis remains heuristic. Starting from this observation, we 
+propose to explore transformations of the initial system into an equivalent system that is 'less nonlinear' in a quantitative sense to be 
+specified in relation to Newton's convergence speed. To distinguish this approach (which only acts on the external nonlinear level), from classical 
+nonlinear preconditioning (which acts simultaneously on both linear and nonlinear levels), we introduce the term pre-flattening. The conceptual 
+clarity provided by the separation of the two levels of iterations then makes it possible to consider targeted and relevant avenues of work.},
+  journal={These.fr},
+  location={France},
+  year={2024},
+  month={November},
+  url={https://theses.fr/s399128},
+  html={https://theses.fr/s399128},
+  selected={true},
 }
 
 @article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
+  abbr={HCMUE J. Sci.},
+  title={Convergence and convergence rates of damped Newton methods},
+  author={Quyen Dang},
+  abstract={In this paper, we study the convergence and convergence rates of damped Newton algorithms
+for solving unconstrained optimization problems with twice continuously differentiable objective
+functions. Under the assumption of the positive definiteness of the Hessian matrix of the objective
+function on an open set containing the level set corresponding to the value of the objective function
+at the starting point, we prove that the sequence generated by the damped Newton algorithm belongs
+to that open set, and the corresponding sequence of objective function values is monotonically
+decreasing. If the sequence has a limit point, that limit point is a locally strong minimum of the
+objective function, and the iterative sequence superlinearly globally converges to this minimizer.
+Furthermore, if the Hessian matrix of the objective function is Lipschitz continuous, the iterative
+sequence achieves the quadratic convergence rate.},
+  journal={HCMUE J. Sci.},
+  location={Vietnam},
+  volume={21},
+  issue={3},
+  pages={446--459},
   numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+  year={2023},
+  month={October},
+  publisher=HCMUE,
+  doi={10.54607/hcmue.js.21.3.3927(2024)},
+  url={https://doi.org/10.54607/hcmue.js.21.3.3927(2024)},
+  html={https://doi.org/10.54607/hcmue.js.21.3.3927(2024)},
   selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }
